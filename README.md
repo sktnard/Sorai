@@ -3,25 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>My Vercel Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>About Me</h2>
-        <p>This is a brief introduction about me.</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 My Website</p>
-    </footer>
+    <h1>Welcome to My Vercel Site</h1>
+    <p>This is a simple static site deployed on Vercel.</p>
 </body>
 </html>
